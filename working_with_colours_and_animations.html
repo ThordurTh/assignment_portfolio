@@ -6,34 +6,153 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="assignments.css" />
-    <title>Assignment Page</title>
+    <title>Working with Colours and Animations</title>
   </head>
   <body>
     <header>
       <nav><a href="index.html">Thordur Thorhallsson</a></nav>
     </header>
     <main>
-      <h1>Assignment 1: Assignment Name</h1>
-      <p>Short Description</p>
-      <a href="https://thordurth.github.io/13c.01.02.colors-and-animations/"
-        >Website</a
-      >
+      <section class="assignment_header">
+        <h1>Assignment 2: Working with Colours and Animations</h1>
+        <p>
+          Applying a colour palette to a mockup landing page design as well as
+          animations.
+        </p>
+        <a href="https://thordurth.github.io/13c.01.02.colors-and-animations/"
+          >Website</a
+        >
+      </section>
       <section class="image_banner">
-        <img src="" alt="" />
+        <img src="images/2_colours_ani/mockup.png" alt="mockup landing page" />
       </section>
       <section class="description">
-        <h2>Assignment 1</h2>
-        <p>Amazing assignment such wow</p>
-        <div>
-          <img src="" alt="" />
-          <img src="" alt="" />
+        <h2>Description</h2>
+        <p>
+          This assignment had a focus on colour palettes and animations on a web
+          page. Since this assignment didn't include who this website was for,
+          there was more freedom. The task was to find colours that complemented
+          each other, using an accent colour correctly and making sure contrast
+          between text and background passed a contrast checker. Lastly adding
+          animations to buttons and links to make the website less static.
+        </p>
+        <div class="desc_images">
+          <figure>
+            <img
+              src="images/2_colours_ani/full_desktop_before.png"
+              alt="Before"
+            />
+            <figcaption>Before</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/2_colours_ani/full_desktop_after.png"
+              alt="After"
+            />
+            <figcaption>After</figcaption>
+          </figure>
         </div>
       </section>
+
       <section class="process">
         <h2>Process</h2>
-        <p>Amazing process</p>
+        <h4>Colour Palette</h4>
+
+        <div class="colour_palette">
+          <p>
+            I decided to go with a palette consisting of red/brown-ish earth
+            colours, a pink accent colour and some neutral greys and white. I
+            decided to go with a monochromatic palette since the design I worked
+            with was quite simple.
+          </p>
+          <figure>
+            <img src="images/2_colours_ani/coolors.png" alt="colour palette" />
+            <figcaption>Colour palette</figcaption>
+          </figure>
+          <figure>
+            <img src="images/2_colours_ani/palette.png" alt="colour ratio" />
+            <figcaption>Colour ratio</figcaption>
+          </figure>
+        </div>
+
+        <div class="colour_testing">
+          <h4>Colour Exercise</h4>
+          <p>
+            Here I experimented with different combinations of the colours as
+            backgrounds and as fonts to see which worked and which didn't. It
+            makes it quite useful to have done this before implementing it to a
+            design since you know beforehand what not to do.
+          </p>
+          <figure>
+            <img src="images/2_colours_ani/palette_test.png" alt="" />
+            <figcaption></figcaption>
+          </figure>
+        </div>
+
+        <div class="colour_contrast">
+          <h4>Colour Contrast</h4>
+          <p>
+            I made use of Adobe's colour contrast checker which is very useful
+            for telling you how to make your website more accessible.
+          </p>
+          <figure>
+            <img src="images/2_colours_ani/test1.png" alt="contrast test" />
+            <figcaption>
+              Adobe's colour contrast checker, white font passes the test well
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/2_colours_ani/test2.png" alt="contrast test" />
+            <figcaption>
+              The accent colour passes for larger text and graphics
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="css_variables">
+          <h4>CSS Variables</h4>
+          <p>
+            CSS variables are a very useful feature in CSS especially if colour
+            needs to be changed, there is only one line to edit.
+          </p>
+          <figure>
+            <img
+              src="images/2_colours_ani/css_variables.png"
+              alt="css variables"
+            />
+            <figcaption></figcaption>
+          </figure>
+        </div>
+
+        <div class="animations">
+          <h4>Animations</h4>
+          <p>
+            I added two animations to test my skills in CSS and Javascript. The
+            first one is a underline animation which makes use of only CSS
+            transition. The second one has 3 different things happen at the same
+            time which requires Javascript as well as CSS animation keyframes.
+            The button changes from being square to being rounded, the
+            background gets darker, the font colour becomes pink and an arrow
+            continuously moves to the right and back.
+          </p>
+          <figure>
+            <img
+              src="images/2_colours_ani/portfolio_animation2.gif"
+              alt="link animation"
+            />
+            <figcaption>Link underline animation</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/2_colours_ani/portfolio_animation.gif"
+              alt="button animation"
+            />
+            <figcaption>Button animation</figcaption>
+          </figure>
+        </div>
       </section>
     </main>
+
     <footer>
       <span>Thordur Thorhallsson 2022</span>
       <ul>
