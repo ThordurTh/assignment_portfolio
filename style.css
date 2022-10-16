@@ -156,6 +156,8 @@ main {
 
 #assignments img {
     width: 100%;
+    background-color: var(--accent-color2);
+    border-radius: 5px;
 }
 
 /* LEARNED */
